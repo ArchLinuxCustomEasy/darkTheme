@@ -1,0 +1,10 @@
+#!/bin/sh
+
+"pcmanfm"
+  Mod4 + Shift + Return
+
+"alacritty"
+  Mod4 + Return
+
+"rofi -show run -font 'Noto Sans 13'"
+  Mod4 + d
