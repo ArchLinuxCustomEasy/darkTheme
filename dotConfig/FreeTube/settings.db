@@ -1,0 +1,16 @@
+{"_id":"autoplayVideos","value":false}
+{"_id":"checkForBlogPosts","value":false}
+{"_id":"checkForUpdates","value":false}
+{"_id":"useSponsorBlock","value":true}
+{"_id":"defaultQuality","value":"1080"}
+{"_id":"defaultTheatreMode","value":true}
+{"_id":"proxyVideos","value":true}
+{"_id":"barColor","value":false}
+{"_id":"defaultInvidiousInstance","value":"https://invidious.exonip.de"}
+{"_id":"backendPreference","value":"invidious"}
+{"_id":"listType","value":"list"}
+{"_id":"currentLocale","value":"fr-FR"}
+{"_id":"listType","value":"grid"}
+{"_id":"backendPreference","value":"local"}
+{"_id":"forceLocalBackendForLegacy","value":false}
+{"_id":"defaultInvidiousInstance","value":""}
