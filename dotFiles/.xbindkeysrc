@@ -8,3 +8,22 @@
 
 "rofi -show run -font 'Noto Sans 13'"
   Mod4 + d
+
+# Multimedia keys
+"amixer -q set Master 2%- unmute"
+  XF86AudioLowerVolume
+
+"amixer -q set Master 2%+ unmute"
+  XF86AudioRaiseVolume
+
+"amixer -q -D pulse set Master toggle"
+  XF86AudioMute
+
+"playerctl play-pause"
+  XF86AudioPlay
+
+"playerctl next"
+  XF86AudioNext
+
+"playerctl previous"
+  XF86AudioPrev
