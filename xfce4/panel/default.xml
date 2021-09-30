@@ -35,12 +35,7 @@
         <value type="int" value="18"/>
         <value type="int" value="22"/>
         <value type="int" value="19"/>
-        <value type="int" value="20"/>
-        <value type="int" value="9"/>
         <value type="int" value="23"/>
-        <value type="int" value="10"/>
-        <value type="int" value="15"/>
-        <value type="int" value="24"/>
         <value type="int" value="13"/>
         <value type="int" value="7"/>
         <value type="int" value="25"/>
@@ -78,16 +73,6 @@
       <property name="show-notifications" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="vlc"/>
     </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="org.inkscape.Inkscape.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-10" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="vlc.desktop"/>
-      </property>
-    </property>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -112,36 +97,25 @@
         <value type="string" value="-logout-dialog"/>
       </property>
     </property>
-    <property name="plugin-15" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="io.github.quodlibet.QuodLibet.desktop"/>
-      </property>
-    </property>
     <property name="plugin-17" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="Alacritty.desktop"/>
       </property>
     </property>
     <property name="plugin-18" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="pcmanfm.desktop"/>
       </property>
     </property>
     <property name="plugin-19" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-web-browser.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-20" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="gimp.desktop"/>
+        <value type="string" value="firefox.desktop"/>
       </property>
     </property>
     <property name="plugin-22" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-23" type="string" value="separator"/>
-    <property name="plugin-24" type="string" value="separator"/>
     <property name="plugin-25" type="string" value="tasklist">
       <property name="show-labels" type="bool" value="false"/>
       <property name="flat-buttons" type="bool" value="true"/>
