@@ -5,4 +5,9 @@ sleep 1; xset dpms 0 0 0 -dpms s 0 0
 
 xbindkeys&
 pcmanfm --daemon-mode&
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/archlinux/simple.png'
+
+if (systemd-detect-virt | grep kvm) ;then
+  spice-vdagent&
+  xrandr --output Virtual-1 --auto&
+  feh --no-fehbg --bg-fill '/usr/share/backgrounds/archlinux/simple.png'&
+fi
