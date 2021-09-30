@@ -5,3 +5,4 @@ sleep 1; xset dpms 0 0 0 -dpms s 0 0
 
 xbindkeys&
 pcmanfm --daemon-mode&
+feh --no-fehbg --bg-fill '/usr/share/backgrounds/archlinux/simple.png'
